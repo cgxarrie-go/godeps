@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "get strings",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "./main.go",
+            "args": [
+                "get",
+                "github.com/cgxarrie-go/godeps/cmd"
+            ]
+        },
+        {
+            "name": "loop strings",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "./main.go",
+            "args": [
+                "cycle",
+                "github.com/cgxarrie-go/godeps/pkg/app"
+            ]
+        }
+    ]
+}
