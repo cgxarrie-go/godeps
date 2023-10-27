@@ -5,7 +5,7 @@
 ## Install
 
 ```sh
-go install github.com/cgxarrie-go/godeps
+go install github.com/cgxarrie-go/godeps@latest
 ```
 
 ## Usage
